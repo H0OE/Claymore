@@ -1,0 +1,22 @@
+.mainButton {
+    background-color: var(--primary);
+    padding: 1rem;
+    font-family: inherit;
+    border: none;
+    border-radius: 5px;
+}
+
+.mainButton:hover {
+    background-color: var(--secondary);
+    color: whitesmoke;
+    outline: none;
+}
+
+.mainButton:focus {
+    outline: 1px solid whitesmoke;
+}
+
+.image {
+    position: relative;
+    height: 100%;
+}

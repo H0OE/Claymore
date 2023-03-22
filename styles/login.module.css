@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-rows: 15% 1fr;
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.container h1 {
+    align-self: center;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    background-color: var(--tertiary);
+    /* height: 100%; */
+}
+
+.loginImage {
+    display: grid;
+    grid-template-rows: auto 30%;
+    height: 100%;
+}
+
+.loginButtons {
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+}
