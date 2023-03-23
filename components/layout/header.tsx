@@ -13,7 +13,7 @@ const Header = () => {
           <Image
             src='/images/logo.png'
             alt="Logo"
-            width={80}
+            width={70}
             height={100}
           />
           Claymore
